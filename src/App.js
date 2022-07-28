@@ -20,7 +20,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <input type='text' onKeyPress={(e) => setEventKey(e.key)} />
+      <input type='text' onKeyUp={(e) => setEventKey(e.key)} />
       <p>eventKey {eventKey}</p>
     </div>
   );
